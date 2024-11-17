@@ -82,8 +82,8 @@ function toggleSearch() {
 
 
 const translations = {
-    ua: '../translations/translations_ua.json',
-    ru: '../translations/translations_ru.json',
+    ua: '/translations/translations_ua.json',
+    ru: '/translations/translations_ru.json',
 };
 
 function switchLanguage(lang) {
