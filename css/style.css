@@ -28,6 +28,7 @@ a {
     margin-top: 10px;
     justify-content: space-between;
     margin-bottom: 15px;
+    align-items: center;
 }
 
 .header::after {
@@ -152,6 +153,13 @@ a {
 
 .t-shirts {
     margin-left: 25px;
+}
+
+#language {
+    padding: 8px;
+    border-radius: 10px;
+    background: #FDA3C4;
+    border: inherit;
 }
 
 .choice__text {
@@ -334,6 +342,7 @@ a {
     padding-top: 2px;
     padding-bottom: 2px;
     margin-bottom: 100px;
+    gap: 20px;
 }
 
 .marquee::before,
@@ -354,6 +363,10 @@ a {
     bottom: 0;
 }
 
+.marquee__container {
+    margin: 0 auto;
+}
+
 .marquee div {
     font-size: 70px;
     white-space: nowrap;
@@ -361,28 +374,18 @@ a {
 }
 
 .div1 {
-    animation: marquee1 20s infinite linear;
-    animation-delay: -20s;
+    animation: marquee1 10s infinite linear;
+    animation-delay: -5s;
     color: #F40000;
     font-family: Montserrat;
     font-weight: 600;
-    padding: 0 10px;
 }
 
 .div2 {
-    animation: marquee2 20s infinite linear;
-    animation-delay: -10s;
+    animation: marquee2 10s infinite linear;
     color: #F40000;
     font-family: Montserrat;
     font-weight: 600;
-    margin-right: 50px;
-    padding: 0 10px;
-}
-
-
-.marquee div:after {
-    content: 'топовые товары топовые товары';
-    margin-left: 20px;
 }
 
 @keyframes marquee1 {
